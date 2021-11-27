@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;700&display=swap');
+
+.forms {
+    background-color: #ffe0bd10;
+}
+.heading {
+    background-color: #232f3e;
+    padding: 30px 294px;
+
+}
+.heading p {
+    color: #fff;
+    padding-right: 50px;
+}
+
+h1 {
+    color: #ed922a;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+}
+h3 {
+    color: #f8992d;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    padding: 20px 0;
+    text-decoration: underline;
+}
+
+.form-control:focus {
+    color: #1b1815;
+    background-color: #fff;
+    border-color: #ecc69a;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(239 180 106 / 38%);
+}
+
+.form-check-input:checked {
+    background-color: #ed922a;
+    border-color: #0d6efd;
+}
+
+.btn-warning {
+    background-color: #ed922a !important; 
+}
